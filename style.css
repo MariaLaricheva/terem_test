@@ -10,11 +10,12 @@ body {
 
 .row {
     margin: 10px auto;
-    width: 100%;
 }
 
-.row div {
-
+.grid-even {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
 }
 
 .grid-uneven {
@@ -29,12 +30,6 @@ body {
     margin-bottom: 10px;
 }
 
-.grid-even {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-}
-
 .outlined {
     outline: black 1px solid;
 }
@@ -42,7 +37,6 @@ body {
 .outlined-dotted {
     outline: black 1px dashed;
 }
-
 
 .col {
     background-color: palegoldenrod;

@@ -1,4 +1,4 @@
-Посмотреть: https://marialaricheva.github.io/terem_test/
+Посмотреть: https://terem-test.netlify.app/
 
 ## ТЗ
 
